@@ -1,0 +1,14 @@
+{
+  "block.learn_mod.copper_wall": "Copper Wall",
+  "block.learn_mod.graphite_ore": "Graphite Ore",
+  "block.learn_mod.lead_crystal": "Lead Crystal Cluster",
+  "block.learn_mod.lead_ore": "Lead Ore",
+  "block.learn_mod.phase_fabric_wall": "Phase Fabric Wall",
+  "block.learn_mod.plastanium_wall": "Plastanium Wall",
+  "item.learn_mod.graphite": "Graphite",
+  "item.learn_mod.lead": "Lead",
+  "item.learn_mod.meta_glass": "Meta Glass",
+  "item.learn_mod.phase_fabric": "Phase Fabric",
+  "item.learn_mod.plastanium": "Plastanium",
+  "itemGroup.mindustry_tab": "Mindustry Tab"
+}

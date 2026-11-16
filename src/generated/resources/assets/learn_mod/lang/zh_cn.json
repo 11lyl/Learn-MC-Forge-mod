@@ -1,0 +1,14 @@
+{
+  "block.learn_mod.copper_wall": "铜墙",
+  "block.learn_mod.graphite_ore": "石墨矿石",
+  "block.learn_mod.lead_crystal": "铅晶簇",
+  "block.learn_mod.lead_ore": "铅矿石",
+  "block.learn_mod.phase_fabric_wall": "相织布墙",
+  "block.learn_mod.plastanium_wall": "塑钢墙",
+  "item.learn_mod.graphite": "石墨",
+  "item.learn_mod.lead": "铅",
+  "item.learn_mod.meta_glass": "钢化玻璃",
+  "item.learn_mod.phase_fabric": "相织布",
+  "item.learn_mod.plastanium": "塑钢",
+  "itemGroup.mindustry_tab": "像素工厂"
+}

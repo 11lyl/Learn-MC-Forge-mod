@@ -4,6 +4,9 @@
   "item.learn_mod.meta_glass": "钢化玻璃",
   "item.learn_mod.phase_fabric": "相织布",
   "item.learn_mod.plastanium": "塑钢",
-
-  "itemGroup.mindustry_tab": "像素工厂"
+  "block.learn_mod.lead_ore": "铅矿石",
+  "block.learn_mod.phase_fabric_wall": "相织布墙",
+  "block.learn_mod.plastanium_wall": "塑钢墙",
+  "itemGroup.mindustry_tab": "像素工厂",
+  "block.learn_mod.lead_crystal": "铅晶簇"
 }

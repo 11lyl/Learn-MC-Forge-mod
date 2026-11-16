@@ -1,0 +1,9 @@
+{
+  "loader": "forge:obj",
+  "model": "learn_mod:models/block/phase_fabric_wall.obj",
+  "flip_v": true,
+  "textures": {
+    "particle": "learn_mod:block/phase_fabric_wall"
+  },
+  "emissive_ambient": false
+}

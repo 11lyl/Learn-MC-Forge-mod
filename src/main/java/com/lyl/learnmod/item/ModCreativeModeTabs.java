@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.LEAD_ORE.get());
                         pOutput.accept(ModBlocks.PHASE_FABRIC_WALL.get());
                         pOutput.accept(ModBlocks.PLASTANIUM_WALL.get());
+                        pOutput.accept(ModBlocks.LEAD_CRYSTAL.get());
 
                     }).build());
     public static void register(IEventBus eventBus){

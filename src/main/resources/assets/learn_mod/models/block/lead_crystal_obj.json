@@ -1,0 +1,9 @@
+{
+  "loader": "forge:obj",
+  "model": "learn_mod:models/block/lead_crystal.obj",
+  "flip_v": true,
+  "textures": {
+    "particle": "learn_mod:block/lead_gem"
+  },
+  "emissive_ambient": false
+}

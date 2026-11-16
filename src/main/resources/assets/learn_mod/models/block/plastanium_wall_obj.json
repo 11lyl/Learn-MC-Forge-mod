@@ -2,8 +2,8 @@
   "loader": "forge:obj",
   "model": "learn_mod:models/block/plastanium_wall.obj",
   "flip_v": true,
+  "emissive_ambient": false,
   "textures": {
     "particle": "learn_mod:block/plastanium_wall"
-  },
-  "emissive_ambient": false
+  }
 }

@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "learn_mod:lead_ore",
-    "learn_mod:phase_fabric_wall",
-    "learn_mod:plastanium_wall",
-    "learn_mod:lead_crystal"
-  ]
-}

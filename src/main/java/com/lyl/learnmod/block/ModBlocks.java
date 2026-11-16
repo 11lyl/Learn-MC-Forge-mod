@@ -20,15 +20,29 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, LearnMod.MOD_ID);
 
+    //                       ore
+
     // 铅矿：直接复制原版石头的属性（硬度、抗爆、需要镐子）
     public static final RegistryObject<Block> LEAD_ORE =
             registerBlock("lead_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    // 石墨矿石
+    public static final RegistryObject<Block> GRAPHITE_ORE =
+            registerBlock("graphite_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    //                       wall
+
     // 相织布墙
     public static final RegistryObject<Block> PHASE_FABRIC_WALL =
             registerBlock("phase_fabric_wall", () -> new Block(BlockBehaviour.Properties.of().strength(1.5F, 3.0F)));
     // 塑钢墙
     public static final RegistryObject<Block> PLASTANIUM_WALL =
             registerBlock("plastanium_wall", () -> new Block(BlockBehaviour.Properties.of().strength(1.5F, 3.0F)));
+    // 铜墙
+    public static final RegistryObject<Block> COPPER_WALL =
+            registerBlock("copper_wall", () -> new Block(BlockBehaviour.Properties.of().strength(1.5F, 3.0F)));
+
+    //                      crystal
+
     // 铅晶簇：OBJ 模型方块，非满方块
     public static final RegistryObject<Block> LEAD_CRYSTAL =
             registerBlock("lead_crystal", () -> new LeadCrystalBlock(BlockBehaviour.Properties.of()

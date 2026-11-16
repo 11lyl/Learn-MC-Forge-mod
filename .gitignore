@@ -20,6 +20,10 @@ build
 # other
 eclipse
 run
+run-data
+
+# datagen 的缓存（生成结果本身要提交）
+src/generated/resources/.cache
 
 # Files from Forge MDK
 forge*changelog.txt

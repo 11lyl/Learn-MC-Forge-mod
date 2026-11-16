@@ -29,6 +29,9 @@ public class ModLangProvider extends LanguageProvider {
             addItem(ModItems.META_GLASS, "钢化玻璃");
             addItem(ModItems.PHASE_FABRIC, "相织布");
             addItem(ModItems.PLASTANIUM, "塑钢");
+            addItem(ModItems.CHEESE, "奶酪");
+            addItem(ModItems.CORN, "玉米");
+            addItem(ModItems.STRAWBERRY, "草莓");
 
             // ---------- 方块 ----------
             addBlock(ModBlocks.LEAD_ORE, "铅矿石");
@@ -40,6 +43,8 @@ public class ModLangProvider extends LanguageProvider {
 
             // ---------- 创造模式标签页 ----------
             add("itemGroup.mindustry_tab", "像素工厂");
+            add("itemGroup.learnmod_tab", "Learn Mod");
+
         } else {
             // ---------- items ----------
             addItem(ModItems.LEAD, "Lead");
@@ -55,9 +60,13 @@ public class ModLangProvider extends LanguageProvider {
             addBlock(ModBlocks.PHASE_FABRIC_WALL, "Phase Fabric Wall");
             addBlock(ModBlocks.PLASTANIUM_WALL, "Plastanium Wall");
             addBlock(ModBlocks.COPPER_WALL, "Copper Wall");
+            addItem(ModItems.CHEESE, "Cheese");
+            addItem(ModItems.CORN, "Corn");
+            addItem(ModItems.STRAWBERRY, "Strawberry");
 
             // ---------- creative tab ----------
             add("itemGroup.mindustry_tab", "Mindustry Tab");
+            add("itemGroup.learnmod_tab", "Learn Mod");
         }
     }
 }

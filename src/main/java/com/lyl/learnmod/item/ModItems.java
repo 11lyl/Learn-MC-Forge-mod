@@ -28,6 +28,17 @@ public class ModItems {
     public static final RegistryObject<Item> SCRAP =
             ITEMS.register("scrap",()-> new Item(new Item.Properties()));//废料*/
 
+
+    public static final RegistryObject<Item> CORN=
+            ITEMS.register("corn",()-> new Item(new Item.Properties().food(ModFoods.CORN)));
+    public static final RegistryObject<Item> STRAWBERRY=
+            ITEMS.register("strawberry",()-> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+    public static final RegistryObject<Item> CHEESE=
+            ITEMS.register("cheese",()-> new Item(new Item.Properties().food(ModFoods.CHEESE)));
+
+
+
+
     public static void register(IEventBus eventBus){
 
         ITEMS.register(eventBus);

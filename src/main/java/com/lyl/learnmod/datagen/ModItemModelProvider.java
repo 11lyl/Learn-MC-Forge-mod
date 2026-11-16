@@ -28,5 +28,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.META_GLASS.get());
         basicItem(ModItems.PHASE_FABRIC.get());
         basicItem(ModItems.PLASTANIUM.get());
+        basicItem(ModItems.STRAWBERRY.get());
+        basicItem(ModItems.CHEESE.get());
+        basicItem(ModItems.CORN.get());
     }
 }

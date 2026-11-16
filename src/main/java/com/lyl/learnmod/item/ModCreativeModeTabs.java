@@ -14,7 +14,7 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LearnMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> LEARNMOD_TAB =
+    public static final RegistryObject<CreativeModeTab> MINDUSTRY_TAB =
             CREATIVE_MODE_TABS.register("mindustry_tab", () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.GRAPHITE.get()))
                     .title(Component.translatable("itemGroup.mindustry_tab"))
@@ -30,6 +30,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.PLASTANIUM_WALL.get());
                         pOutput.accept(ModBlocks.COPPER_WALL.get());
                         pOutput.accept(ModBlocks.LEAD_CRYSTAL.get());
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> LEARNMOD_TAB =
+            CREATIVE_MODE_TABS.register("learnmod_tab", () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.GRAPHITE.get()))
+                    .title(Component.translatable("itemGroup.mindustry_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.CHEESE.get());
+                        pOutput.accept(ModItems.CORN.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

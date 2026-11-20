@@ -1,6 +1,8 @@
 package com.lyl.learnmod.item;
 
 import com.lyl.learnmod.LearnMod;
+import com.lyl.learnmod.item.custom.ModFuelItem;
+import com.lyl.learnmod.item.custom.ProspectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -37,7 +39,11 @@ public class ModItems {
             ITEMS.register("cheese",()-> new Item(new Item.Properties().food(ModFoods.CHEESE)));
 
 
+    public static final RegistryObject<Item> ANTHRACITE =
+            ITEMS.register("anthracite",()-> new ModFuelItem(new Item.Properties(),1600));
 
+    public static final RegistryObject<Item> PROSPECTOR =
+            ITEMS.register("prospector",()-> new ProspectorItem(new Item.Properties().durability(127)));
 
     public static void register(IEventBus eventBus){
 

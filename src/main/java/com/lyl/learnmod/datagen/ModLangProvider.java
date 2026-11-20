@@ -32,6 +32,8 @@ public class ModLangProvider extends LanguageProvider {
             addItem(ModItems.CHEESE, "奶酪");
             addItem(ModItems.CORN, "玉米");
             addItem(ModItems.STRAWBERRY, "草莓");
+            addItem(ModItems.ANTHRACITE, "无烟煤");
+            addItem(ModItems.PROSPECTOR, "矿物探测器");
 
             // ---------- 方块 ----------
             addBlock(ModBlocks.LEAD_ORE, "铅矿石");
@@ -52,6 +54,11 @@ public class ModLangProvider extends LanguageProvider {
             addItem(ModItems.META_GLASS, "Meta Glass");
             addItem(ModItems.PHASE_FABRIC, "Phase Fabric");
             addItem(ModItems.PLASTANIUM, "Plastanium");
+            addItem(ModItems.CHEESE, "Cheese");
+            addItem(ModItems.CORN, "Corn");
+            addItem(ModItems.STRAWBERRY, "Strawberry");
+            addItem(ModItems.ANTHRACITE, "Anthracite");
+            addItem(ModItems.PROSPECTOR, "Prospector");
 
             // ---------- blocks ----------
             addBlock(ModBlocks.LEAD_ORE, "Lead Ore");
@@ -63,6 +70,7 @@ public class ModLangProvider extends LanguageProvider {
             addItem(ModItems.CHEESE, "Cheese");
             addItem(ModItems.CORN, "Corn");
             addItem(ModItems.STRAWBERRY, "Strawberry");
+            addItem(ModItems.ANTHRACITE, "Anthracite");
 
             // ---------- creative tab ----------
             add("itemGroup.mindustry_tab", "Mindustry Tab");

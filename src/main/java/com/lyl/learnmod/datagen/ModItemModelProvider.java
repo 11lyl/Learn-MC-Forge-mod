@@ -31,5 +31,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.STRAWBERRY.get());
         basicItem(ModItems.CHEESE.get());
         basicItem(ModItems.CORN.get());
+        basicItem(ModItems.ANTHRACITE.get());
+        basicItem(ModItems.PROSPECTOR.get());
     }
 }

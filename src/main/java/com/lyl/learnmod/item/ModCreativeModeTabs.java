@@ -34,12 +34,14 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> LEARNMOD_TAB =
             CREATIVE_MODE_TABS.register("learnmod_tab", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.GRAPHITE.get()))
+                    .icon(() -> new ItemStack(ModItems.ANTHRACITE.get()))
                     .title(Component.translatable("itemGroup.mindustry_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.CHEESE.get());
                         pOutput.accept(ModItems.CORN.get());
                         pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.ANTHRACITE.get());
+                        pOutput.accept(ModItems.PROSPECTOR.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
